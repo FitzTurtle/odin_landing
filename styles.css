@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 48px 48px 48px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero div {
+    margin-right: 30px;
+}
+
+.hero img {
+ flex-shrink: 0
+}
